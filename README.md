@@ -11,7 +11,7 @@ in a near future I want to provide support for more devices
 
 > [!NOTE]
 > credits for everyone that made armbian, goldhen, PPPwn, PPPwn_Cpp, PI-Pwn-Stooged possible
-and me for this image
+and me for this SD.img
 
 
 ## how to install
