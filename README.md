@@ -1,4 +1,4 @@
-# PPPwn_STvBox
+# PPPwn_STvBox v0.1 (ATM only Amlogic S905w and PS4 1100)
 PPPwn for Smart Tv Boxes (STB)
 boot from SD or eMMC (internal storage) for better performance ~40sec from boot till PPPwn-ed
 
