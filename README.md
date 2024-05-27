@@ -6,7 +6,7 @@ Inicially it will only support **Amlogic S905w*** and PS4 on fw ***11.00***
 in a near future I want to provide support for more devices
 
 > [!NOTE]
-> credits for everyone that made PPPwn, PPPwn_Cpp, PPPwn_pi possible
+> credits for everyone that made armbian, goldhen, PPPwn, PPPwn_Cpp, PI-Pwn-Stooged possible
 and me for this image
 
 
