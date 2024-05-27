@@ -11,9 +11,16 @@ and me for this image
 
 
 ## how to install
-1. download the image and burn in you SD (> 4GB) using dd, w32imager or balena etcher
+1. download the image and burn in you SD (> 4GB) using dd, [win32imager](https://win32diskimager.org/) or [Balena Etcher](https://etcher.balena.io/)
 2. insert the sdcard on your STB (it has to be off)
-3. that's it
+3. turn on and that's it, enjoy your PPPwn-STvBox!
+
+### Download links
+[github in 33 parts](https://github.com/llbranco/PPPwn_STvBox/archive/refs/heads/main.zip)
+
+[mediafire](https://www.mediafire.com/file/v7rdkb4iji70zgq/PPPwn_STvBox_v0.1.7z/file)
+
+[pcloud](https://u.pcloud.link/publink/show?code=XZwH5B0ZjzaAv4CqXKytYJz4vH0pvYiIi3Sk)
 
 
 ## SSH and Passwords
