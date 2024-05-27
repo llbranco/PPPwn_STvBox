@@ -9,8 +9,9 @@ in a near future I want to provide support for more devices
 > credits for everyone that made PPPwn, PPPwn_Cpp, PPPwn_pi possible
 and me for this image
 
+
 ## how to install
-1. download the image and burn in you SD using dd, w32imager or balena etcher
+1. download the image and burn in you SD (> 4GB) using dd, w32imager or balena etcher
 2. insert the sdcard on your STB (it has to be off)
 3. that's it
 
