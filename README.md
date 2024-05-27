@@ -37,6 +37,11 @@ pass
 pppwn
 ```
 
+## To install on eMMC (internal storage) do it at your own risk
+```
+sudo ./root/install-aml.sh
+```
+
 ## ToDo List
 - [ ] Logo
 - [ ] Ascii logo
