@@ -12,8 +12,10 @@ in a near future I want to provide support for more devices
 > [!NOTE]
 > credits for everyone that made armbian, goldhen, PPPwn, PPPwn_Cpp, PI-Pwn-Stooged possible
 and me for this SD.img
-> All winner Variant seens to be compatible with [Armbian Orange PI PC](https://forum.armbian.com/topic/17964-mxqpro-4k-8g128g-allwinner-h3/) downloaded [this version](https://www.armbian.com/orange-pi-pc/) for test
-> but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... uhmmm let's see
+> All winner Variant seens to be compatible with Armbian Orange PI builds like you can see [here](https://forum.armbian.com/topic/17964-mxqpro-4k-8g128g-allwinner-h3/) or [here](https://docs.armbian.com/Hardware_Allwinner-H3/) I downloaded [this version](https://www.armbian.com/orange-pi-pc/) for test
+> but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... let's see
+>
+> I don't think I'm going to make any progress today, my neighbors have been making a tremendous amount of noise this whole weekend and I haven't been able to concentrate at all because of those M#F#s. Added to that I have a bad cold (that's never stopped me but this time I'm feeling really bad)
 
 
 ## how to install
