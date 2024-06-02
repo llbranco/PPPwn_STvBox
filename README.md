@@ -13,6 +13,7 @@ in a near future I want to provide support for more devices
 > credits for everyone that made armbian, goldhen, PPPwn, PPPwn_Cpp, PI-Pwn-Stooged possible
 and me for this SD.img
 > All winner Variant seens to be compatible with [Armbian Orange PI PC](https://forum.armbian.com/topic/17964-mxqpro-4k-8g128g-allwinner-h3/) downloaded [this version](https://www.armbian.com/orange-pi-pc/) for test
+> but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... uhmmm let's see
 
 
 ## how to install
