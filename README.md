@@ -1,9 +1,7 @@
-# PPPwn_STvBox v0.1 (ATM only Amlogic S905w and PS4 1100)
+# PPPwn_STvBox v0.1
+(ATM only Amlogic S905x/w, Allwinner sun8i and PS4 1100)
 PPPwn for Smart Tv Boxes (STB)
 boot from SD or eMMC (internal storage) for better performance ~40sec from boot till PPPwn-ed
-
-Inicially it will only support **Amlogic S905w*** and PS4 on fw ***11.00***
-in a near future I want to provide support for more devices
 
 ### basically any model that looks like this (the box or the remote) MAY be compatible
 (note that some models uses rockchip or allwinner... we dont support it YET)
@@ -23,13 +21,15 @@ and me for this SD.img
 3. insert the sdcard on your STB
 4. turn on and that's it, enjoy your PPPwn-STvBox!
 
-### Download links
+### Download links for Amlogic S905x/w
 [github in 33 parts](https://github.com/llbranco/PPPwn_STvBox/archive/refs/heads/main.zip)
 
 [mediafire](https://www.mediafire.com/file/v7rdkb4iji70zgq/PPPwn_STvBox_v0.1.7z/file)
 
 [pcloud](https://u.pcloud.link/publink/show?code=XZwH5B0ZjzaAv4CqXKytYJz4vH0pvYiIi3Sk)
 
+### Download links for Allwinner sun8i
+wip (no eta, I'm having compatibility issues with allwinner)
 
 ## SSH and Passwords
 you can use SSH or putty
@@ -52,7 +52,7 @@ pass
 pppwn
 ```
 
-## To install on eMMC (internal storage) do it at your own risk
+## To install on eMMC (internal storage) do it at your own risk (just work for Amlogic ATM)
 ```
 cd /root/
 sudo ./install-aml.sh
