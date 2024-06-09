@@ -8,13 +8,12 @@ boot from SD or eMMC (internal storage) for better performance ~40sec from boot 
 ![S905w Example](https://mxqpro.oficialnanet.com/wp-content/uploads/2022/12/3.webp)
 
 > [!NOTE]
-> credits for everyone that made armbian, goldhen, PPPwn, PPPwn_Cpp, PI-Pwn-Stooged possible
-and me for this SD.img
 > All winner Variant seens to be compatible with Armbian Orange PI builds like you can see [here](https://forum.armbian.com/topic/17964-mxqpro-4k-8g128g-allwinner-h3/) or [here](https://docs.armbian.com/Hardware_Allwinner-H3/) I downloaded [this version](https://www.armbian.com/orange-pi-pc/) for test
 > but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... let's see
 >
-> I don't think I'm going to make any progress today, my neighbors have been making a tremendous amount of noise this whole weekend and I haven't been able to concentrate at all because of those M#F#s. Added to that I have a bad cold (that's never stopped me but this time I'm feeling really bad)
-> I'll study for future releases of this project to be based on two old images: this one [here for armv7](https://forum.armbian.com/topic/14232-single-armbian-image-for-rk-aml-aw-armhf-armv7/) and this one [here for aarch64](https://forum.armbian.com/topic/12162-single-armbian-image-for-rk-aml-aw-aarch64-armv8/) both images are compatible with RK, AML and AW.
+> I'll study for possible future releases of this project to be based on those two old images: this one [for armv7](https://forum.armbian.com/topic/14232-single-armbian-image-for-rk-aml-aw-armhf-armv7/) and this one [for aarch64](https://forum.armbian.com/topic/12162-single-armbian-image-for-rk-aml-aw-aarch64-armv8/) both images are compatible with RK, AML and AW, very interesting.
+> 
+> I don't think I'm going to make any progress soon, my neighbors have been making a tremendous amount of noise those days and I haven't been able to concentrate at all because of those M#F#s.
 
 
 ## how to install
@@ -79,4 +78,7 @@ sudo ./install-aml.sh
 
 ### Credits
 This project is based on/inspired by them and all the contributors to their respective projects; they deserve all the credit.
-[TheFlow PPPwn](https://github.com/TheOfficialFloW/PPPwn), [stooged pi-PPPwn](https://github.com/stooged/PI-Pwn), [Armbian](https://www.armbian.com), [xfangfang PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp), [Sistro GoldHen](https://github.com/GoldHEN/GoldHEN), Thanks to my friend for lending me and allowing me to modify his Allwinner TV box and finally me for putting everything in one image.
+[TheFlow PPPwn](https://github.com/TheOfficialFloW/PPPwn), [stooged pi-PPPwn](https://github.com/stooged/PI-Pwn), [Armbian](https://www.armbian.com), [xfangfang PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp), [Sistro GoldHen](https://github.com/GoldHEN/GoldHEN), Thanks to my friend for lending me and allowing me to modify his Allwinner TV box and finally me for putting everything together.
+
+## vent
+I curse my neighbors for making my life miserable and for making it practically impossible to think, study or work. without my neighbors it would be infinitely easier.
