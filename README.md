@@ -75,3 +75,7 @@ sudo ./install-aml.sh
 - [x] MXQ Pro 4k, S905w 1G RAM+8ROM
 - [x] Tanix TX3 mini, S905w 1G RAM+8ROM (not the red board, but probably work on the red board too)
 - [ ] probably work on any s905w 1G RAM+8ROM Out-of-Box
+
+### Credits
+This project is based on/inspired by them and all the contributors to their respective projects; they deserve all the credit.
+[TheFlow PPPwn](https://github.com/TheOfficialFloW/PPPwn), [stooged pi-PPPwn](https://github.com/stooged/PI-Pwn), [Armbian](https://www.armbian.com), [xfangfang PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp), [Sistro GoldHen](https://github.com/GoldHEN/GoldHEN), Thanks to my friend for lending me and allowing me to modify his Allwinner TV box and finally me for putting everything in one image.
