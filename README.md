@@ -14,6 +14,7 @@ and me for this SD.img
 > but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... let's see
 >
 > I don't think I'm going to make any progress today, my neighbors have been making a tremendous amount of noise this whole weekend and I haven't been able to concentrate at all because of those M#F#s. Added to that I have a bad cold (that's never stopped me but this time I'm feeling really bad)
+> I'll study for future releases of this project to be based on two old images: this one [here for armv7](https://forum.armbian.com/topic/14232-single-armbian-image-for-rk-aml-aw-armhf-armv7/) and this one [here for aarch64](https://forum.armbian.com/topic/12162-single-armbian-image-for-rk-aml-aw-aarch64-armv8/) both images are compatible with RK, AML and AW.
 
 
 ## how to install
