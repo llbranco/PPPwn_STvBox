@@ -1,56 +1,66 @@
-# PPPwn_STvBox v0.1
-(ATM only Amlogic S905x/w, Allwinner sun8i and PS4 1100)
-PPPwn for Smart Tv Boxes (STB)
-boot from SD or eMMC (internal storage) for better performance ~40sec from boot till PPPwn-ed
+# PPPwn_STvBox v1.3STB
+Project based on PPLGPwn v1.3
+I decided to create a different repository instead of a fork of PPLGPwn since I intend to follow slightly different paths at the beginning, but with significant differences in the future, such as installing Linux from the SD card to the internal memory of STBs, something that would definitely end up bricking LG TVs.
 
-### basically any model that looks like this (the box or the remote) MAY be compatible
-(note that some models uses rockchip or allwinner... we dont support it YET)
-![S905w Example](https://mxqpro.oficialnanet.com/wp-content/uploads/2022/12/3.webp)
 
-> [!NOTE]
-> All winner Variant seens to be compatible with Armbian Orange PI builds like you can see [here](https://forum.armbian.com/topic/17964-mxqpro-4k-8g128g-allwinner-h3/) or [here](https://docs.armbian.com/Hardware_Allwinner-H3/) I downloaded [this version](https://www.armbian.com/orange-pi-pc/) for test
-> but [this video](https://www.youtube.com/watch?v=GHk22VIxoIU) suggest a different version... let's see
->
-> I'll study for possible future releases of this project to be based on those two old images: this one [for armv7](https://forum.armbian.com/topic/14232-single-armbian-image-for-rk-aml-aw-armhf-armv7/) and this one [for aarch64](https://forum.armbian.com/topic/12162-single-armbian-image-for-rk-aml-aw-aarch64-armv8/) both images are compatible with RK, AML and AW, very interesting.
+![image](https://github.com/llbranco/PPPwn_STvBox/assets/5321071/92f898e6-bf4a-4204-aa6d-0151d662f3e9)
+
+
+## If you liked my project and want to help me, consider buying me a coffee
+<a href='https://ko-fi.com/J3J4Y2DQ4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dllbranco%26type%3Dpatrons&style=flat-square)](https://patreon.com/llbranco)
+
+
+## Changes compared to [llbranco/PPLGPwn](https://github.com/llbranco/PPLGPwn)
+- PPPwn_STvBox isn't compatible (or supported even if it runs) with WebOS.
+- Different paths.
+- STB is compatible with apt.
+- STB supports dual boot and/or system to emmc/nand (which is impossible on WebOS).
+- In future versions, it may be different to a level that could brick a WebOS system.
+
+
+# Wich Linux I need to use on my Smart TV Box?
+1. You need to know which SoC brand you have... on Android you can use ```CPU-z``` ```AIDA64```  ```DevCheck``` ```Droid Hardware Info``` ```Android System Info``` or any similar
+
+
+2. Download a Linux image to your SoC
+
+
+### All winner
+> any Linux based on ```Orange Pi PC``` or ```Any H3 variant```
 > 
-> I don't think I'm going to make any progress soon, my neighbors have been making a tremendous amount of noise those days and I haven't been able to concentrate at all because of those M#F#s.
+> my suggestion is the [original Orange-Pi Debian or Ubuntu](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-PC.html) or [Armbian](https://www.armbian.com/orange-pi-pc/)
+
+### Amlogic
+> use ArmBian
+[S9xx](https://www.armbian.com/amlogic-s9xx-tv-box/)
+
+### Rockchip
+> [try armbian](https://www.armbian.com/soc/rockchip/) I don't have access to a RK STB to test, so it's on you... please lemme know which one worked for you.
 
 
-## how to install
-1. download the image and burn in you SD (> 4GB) using ```dd``` (Linux,BSD,Mac OS,Unix-like), [win32imager](https://win32diskimager.org/), [Balena Etcher](https://etcher.balena.io/) or [Rufus](https://rufus.ie)
-3. insert the sdcard on your STB
-4. turn on and that's it, enjoy your PPPwn-STvBox!
+3. Burn the image on any SD card using [Balena Etcher](https://etcher.balena.io/), [win32diskimager](https://sourceforge.net/projects/win32diskimager/) or [Rufus](https://rufus.ie/)
 
-### Download links for Amlogic S905x/w
-[github in 33 parts](https://github.com/llbranco/PPPwn_STvBox/archive/refs/heads/main.zip)
 
-[mediafire](https://www.mediafire.com/file/v7rdkb4iji70zgq/PPPwn_STvBox_v0.1.7z/file)
+4. Shutdown your STB... insert the SD on your STB and turn it on until it boots on linux (in somemodels you need to insert a NON-METALIC pin on the AV port for that)
 
-[pcloud](https://u.pcloud.link/publink/show?code=XZwH5B0ZjzaAv4CqXKytYJz4vH0pvYiIi3Sk)
 
-### Download links for Allwinner sun8i
-wip (no eta, I'm having compatibility issues with allwinner)
-
-## SSH and Passwords
-you can use SSH or putty
-you can use the name ***pppwn*** instead of IP
+## How to install PPPwn_STvBox
+copy and run this script
 ```
-pppwn
+curl -fsSLO https://github.com/llbranco/PPPwn_STvBox/raw/main/PPPwn/install.sh && chmod +x ./install.sh && ./install.sh
 ```
 
-root pass
+### I haven't had time yet to create a universal solution for automatic boot on all these versions.
+in meanwhile try to create/edit ```/etc/rc.local``` and run script from there (it may or may not work depend on the system you choose)
 ```
-12345qwert
-```
+#!/bin/bash
 
-username (sudo)
+.~/PPPwn/run.sh
+
+exit 0
 ```
-pppwn
-```
-pass
-```
-pppwn
-```
+then give ```/etc/rc.local``` executable with  ```chmod+x /etc/rc.local```
+
 
 ## To install on eMMC (internal storage) do it at your own risk (just work for Amlogic ATM)
 ```
@@ -58,23 +68,26 @@ cd /root/
 sudo ./install-aml.sh
 ```
 
+
 ## ToDo List
 - [ ] Logo
-- [ ] Ascii logo
+- [x] Ascii logo
 - [ ] PPPwnpi installer at first boot
-- [ ] support for all S9xx variants
-- [ ] support for all Amlogic variants
+- [x] support for all S9xx variants
+- [x] support for all Amlogic variants
 - [ ] support for rockchip and variants
-- [ ] support for Allwinner and variants
-- [ ] installer
+- [x] support for Allwinner and variants
+- [x] installer
 - [ ] dmsg on led display (for STB that have it)
 
 
 ### Compatibility list (brand, model, processor, RAM + ROM)
 - [x] Aquario SV2000, S905w 1G RAM+8ROM
 - [x] MXQ Pro 4k, S905w 1G RAM+8ROM
+- [x] MXQ Pro 5G 4k, Allwinner H3 1G RAM+8ROM
 - [x] Tanix TX3 mini, S905w 1G RAM+8ROM (not the red board, but probably work on the red board too)
-- [ ] probably work on any s905w 1G RAM+8ROM Out-of-Box
+- [ ] Rockchip variant
+
 
 ### Credits
 This project is based on/inspired by them and all the contributors to their respective projects; they deserve all the credit.
