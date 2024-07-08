@@ -1,6 +1,11 @@
 # PPPwn_STvBox v1.3STB
+A method of running PPPwn on Smart TV boxes.
+This method uses the C++ version of PPPwn, made by [xfangfang](https://github.com/xfangfang/PPPwn_cpp)
+
 Project based on [llbranco/PPLGPwn v1.3](https://github.com/llbranco/PPLGPwn)
-I decided to create a different repository instead of a fork of PPLGPwn since I intend to follow slightly different paths at the beginning, but with significant differences in the future, such as installing Linux from the SD card to the internal memory of STBs, something that would definitely end up bricking LG TVs.
+
+I decided to create a different repository instead of a fork of PPLGPwn since I intend to follow slightly different paths at the beginning,
+but with significant differences in the future, such as installing Linux from the SD card to the internal memory of STBs, something that would definitely end up bricking LG TVs.
 
 
 ![image](https://github.com/llbranco/PPPwn_STvBox/assets/5321071/92f898e6-bf4a-4204-aa6d-0151d662f3e9)
