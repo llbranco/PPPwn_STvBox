@@ -1,5 +1,5 @@
 # PPPwn_STvBox v1.3STB
-Project based on PPLGPwn v1.3
+Project based on [llbranco/PPLGPwn v1.3](https://github.com/llbranco/PPLGPwn)
 I decided to create a different repository instead of a fork of PPLGPwn since I intend to follow slightly different paths at the beginning, but with significant differences in the future, such as installing Linux from the SD card to the internal memory of STBs, something that would definitely end up bricking LG TVs.
 
 
