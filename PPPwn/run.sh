@@ -20,7 +20,7 @@ echo -e "${GREEN}
 ${NC}
 PPPwn StvBox By ${BLUE}llbranco${NC} https://github.com/llbranco/PPPwn_STvBox
 
-Based on PPLGPwn project by${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
+Based on PPLGPwn project by ${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
 Version: ${PURPLE}v1.3 STB${NC}
 
 ${CYAN}-=-=-= RUNNING =-=-=- ${NC}
