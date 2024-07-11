@@ -1,4 +1,4 @@
-# PPPwn_STvBox v1.3STB
+# PPPwn_STvBox v1.3STB and 1.3.1STB-VTX
 Use your Smart TV Box to jailbreak the PS4 thru PPPwn using Linux for better performance.
 This method uses the C++ version of PPPwn, made by [xfangfang](https://github.com/xfangfang/PPPwn_cpp)
 
