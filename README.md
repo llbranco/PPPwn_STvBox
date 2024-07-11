@@ -55,6 +55,12 @@ copy and run this script
 curl -fsSLO https://github.com/llbranco/PPPwn_STvBox/raw/main/PPPwn/install.sh && chmod +x ./install.sh && ./install.sh
 ```
 
+(optional)to install the PS4Hen-VTX run this
+copy and run this script
+```
+curl -fsSLO https://github.com/llbranco/PPPwn_STvBox/raw/main/PPPwn/install_vtx.sh && chmod +x ./install_vtx.sh && ./install_vtx.sh
+```
+
 ### I haven't had time yet to create a universal solution for automatic boot on all these versions.
 in meanwhile try to create/edit ```/etc/rc.local``` and run script from there (it may or may not work depend on the system you choose)
 ```
