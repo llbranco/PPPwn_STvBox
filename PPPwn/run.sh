@@ -1,5 +1,5 @@
 clear
-
+cpu_arch=`uname -m`
 RED='\033[0;91m'
 GREEN='\033[0;92m'
 YELLOW='\033[0;93m'
@@ -23,7 +23,7 @@ PPPwn StvBox By ${BLUE}llbranco${NC} https://github.com/llbranco/PPPwn_STvBox
 Based on PPLGPwn project by ${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
 Version: ${PURPLE}v1.3 STB${NC}
 
-${CYAN}-=-=-= RUNNING =-=-=- ${NC}
+${CYAN}-=-=-= RUNNING on $cpu_arch =-=-=- ${NC}
 "
 
 chmod +x ./pppwn
