@@ -1,5 +1,7 @@
 clear
 
+repo=llbranco
+default_dir=~/PPPwn-vtx
 RED='\033[0;91m'
 GREEN='\033[0;92m'
 YELLOW='\033[0;93m'
@@ -7,7 +9,7 @@ BLUE='\033[0;94m'
 PURPLE='\033[0;95m'
 CYAN='\033[0;96m'
 NC='\033[0m' # No Color
-. ~/PPPwn-vtx/settings.config
+. $default_dir/settings.config
 echo -e "${GREEN}
 
                                        _         _               
@@ -20,7 +22,7 @@ echo -e "${GREEN}
 ${NC}
 PPPwn StvBox By ${BLUE}llbranco${NC} https://github.com/llbranco/PPPwn_STvBox
 
-Based on PPLGPwn project by ${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
+Based on PPLGPwn project by${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
 Version: ${PURPLE}v1.3.1 STB-VTX${NC}
 
 ${CYAN}-=-=-= RUNNING =-=-=- ${NC}
