@@ -117,7 +117,7 @@ lan_link=$(ip link | awk -F: '$0 !~ "lo|vir|^[^0-9]"{gsub(/^[ \t]+/, "", $2); pr
 curl -fsSL -o "$default_dir/pppwn" "https://github.com/$repo/PPLGPwn/raw/main/pppwn_$cpu_arch"
 curl -fsSL -o "$default_dir/run.sh" "https://github.com/$repo/PPPwn_STvBox/raw/main/PPPwn/run_vtx.sh"
 curl -fsSL -o "$default_dir/stage1.bin" "https://github.com/$repo/PPLGPwn/raw/main/stage1/$fmv/stage1.bin"
-curl -fsSL -o "$default_dir/stage2.bin" "https://github.com/$repo/PPLGPwn/raw/main/ps4hen/stage2/$fmv/stage2.bin"
+curl -fsSL -o "$default_dir/stage2.bin" "https://github.com/$repo/PPLGPwn/raw/main/ps4hen/$fmv/stage2.bin"
 
 echo -e "Done!
 
