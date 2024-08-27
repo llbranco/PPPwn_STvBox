@@ -95,6 +95,7 @@ sudo ./install-aml.sh
 - [x] support for Allwinner and variants
 - [x] installer
 - [ ] dmsg on led display (for STB that have it)
+- [ ] [EDK 2]( https://github.com/tianocore/edk2), maybe?
 
 
 ### Compatibility list (brand, model, processor, RAM + ROM)
