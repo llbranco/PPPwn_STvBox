@@ -109,6 +109,3 @@ sudo ./install-aml.sh
 ### Credits
 This project is based on/inspired by them and all the contributors to their respective projects; they deserve all the credit.
 [TheFlow PPPwn](https://github.com/TheOfficialFloW/PPPwn), [stooged pi-PPPwn](https://github.com/stooged/PI-Pwn), [Armbian](https://www.armbian.com), [xfangfang PPPwn_cpp](https://github.com/xfangfang/PPPwn_cpp), [Sistro GoldHen](https://github.com/GoldHEN/GoldHEN), Thanks to my friend for lending me and allowing me to modify his Allwinner TV box and finally me for putting everything together.
-
-## vent
-I curse my neighbors for making my life miserable and for making it practically impossible to think, study or work. without my neighbors it would be infinitely easier.
