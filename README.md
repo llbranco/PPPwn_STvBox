@@ -43,10 +43,11 @@ but with significant differences in the future, such as installing Linux from th
 ### Amlogic
 > use ArmBian
 [S9xx](https://www.armbian.com/amlogic-s9xx-tv-box/)
+[Debian-on-amlogic](https://github.com/devmfc/debian-on-amlogic)
 
 ### Rockchip
 > [try armbian](https://www.armbian.com/soc/rockchip/) I don't have access to a RK STB to test, so it's on you... please lemme know which one worked for you.
-
+[Debian-on-amlogic](https://github.com/devmfc/debian-on-amlogic)
 
 3. Burn the image on any SD card using [Balena Etcher](https://etcher.balena.io/), [win32diskimager](https://sourceforge.net/projects/win32diskimager/) or [Rufus](https://rufus.ie/)
 
