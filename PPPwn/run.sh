@@ -21,7 +21,7 @@ ${NC}
 PPPwn StvBox By ${BLUE}llbranco${NC} https://github.com/llbranco/PPPwn_STvBox
 
 Based on PPLGPwn project by ${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
-Version: ${PURPLE}v1.3 STB${NC}
+Version: ${PURPLE}v1.3.1 STB${NC}
 
 ${CYAN}-=-=-= RUNNING on $cpu_arch =-=-=- ${NC}
 "
