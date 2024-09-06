@@ -24,7 +24,7 @@ ${NC}
 PPPwn StvBox By ${BLUE}llbranco${NC}  https://github.com/llbranco/PPPwn_STvBox
 
 Based on PPLGPwn project by${PURPLE}Kodeine${NC}, ${CYAN}llbranco${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
-Version: ${PURPLE}v1.3 STB${NC}
+Version: ${PURPLE}v1.3.1 STB${NC}
 
 ${CYAN}-=-=-= INSTALLATION =-=-=-${NC}
 "
@@ -82,7 +82,7 @@ fi
 
 echo -e "
 ${CYAN}-------
-Supported firmwares 9.00 9.60 10.00 11.00
+Supported firmwares 9.00 9.60 10.00 10.01 10.50 10.70 10.71 11.00
 Choose firmware version...
 -------${NC}
 "
