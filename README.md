@@ -105,7 +105,8 @@ sudo ./install-aml.sh
 - [x] MXQ Pro 5G 4k, Allwinner H3 1G RAM+8ROM
 - [x] Tanix TX3 mini, S905w 1G RAM+8ROM (not the red board, but probably work on the red board too)
 - [ ] Rockchip variant
-
+- [ ] Apple TV 1/2/3 (jailbreak required)
+- [ ] Roku tv [rootmyroku](https://www.psxhax.com/threads/rootmyroku-a-root-jailbreak-for-roku-os-via-rmdevnull-llamasoft.9900/)
 
 ### Credits
 This project is based on/inspired by them and all the contributors to their respective projects; they deserve all the credit.
