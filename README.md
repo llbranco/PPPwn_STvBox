@@ -52,7 +52,7 @@ but with significant differences in the future, such as installing Linux from th
 3. Burn the image on any SD card using [Balena Etcher](https://etcher.balena.io/), [win32diskimager](https://sourceforge.net/projects/win32diskimager/) or [Rufus](https://rufus.ie/)
 
 
-4. Shutdown your STB... insert the SD on your STB and turn it on until it boots on linux (in somemodels you need to insert a NON-METALIC pin on the AV port for that)
+4. Shutdown your STB... insert the SD on your STB and turn it on until it boots on linux (in somemodels you need to insert a NON-METALIC pin on the AV port for that and hold the reset button for about 7~10sec)
 
 
 ## How to install PPPwn_STvBox
