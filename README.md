@@ -42,8 +42,8 @@ but with significant differences in the future, such as installing Linux from th
 
 ### Amlogic
 > use ArmBian
-[S9xx](https://www.armbian.com/amlogic-s9xx-tv-box/)
-[Debian-on-amlogic](https://github.com/devmfc/debian-on-amlogic)
+[S9xx](https://www.armbian.com/amlogic-s9xx-tv-box/) or 
+[Debian-on-amlogic (Recommended)](https://github.com/devmfc/debian-on-amlogic)
 
 ### Rockchip
 > [try armbian](https://www.armbian.com/soc/rockchip/) I don't have access to a RK STB to test, so it's on you... please lemme know which one worked for you.
